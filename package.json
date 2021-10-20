@@ -48,5 +48,8 @@
     "eslint-plugin-ember-suave": "^1.0.0",
     "eslint-plugin-promise": "^3.4.0",
     "loader.js": "^4.2.3"
+  },
+  "volta": {
+    "node": "10.24.1"
   }
 }
