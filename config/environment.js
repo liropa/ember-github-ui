@@ -23,7 +23,8 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    GITHUB_PERSONAL_ACCESS_TOKEN: process.env.EMBER_APP_GITHUB_PERSONAL_ACCESS_TOKEN
   };
 
   if (environment === 'development') {
